@@ -10,6 +10,19 @@
   </head>
 
   <body>
+    <div class="container-fluid navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="leftnavigation"><a href="#"><h2>START BOOTSTRAP</h2></a></div>
+          </div>
+          <div class="col-md-offset-4 col-md-4">
+            <div class="rightnavigation"><a href="#">PORTFOLIO</a> <a href="#">ABOUT</a> <a href="#">CONTACT</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <header class="container-fluid verde">
       <div class="container bannerbool">
@@ -121,8 +134,13 @@
         <div class="row">
           <div class="col-md-offset-3 col-md-6">
             <div class="contactinput">
-                <input type="text" name="name" placeholder="Name">
+              <textarea id="textarea" class="form-control" rows="3" placeholder="Message"></textarea>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+              <button id="contactbutton" class="btn btn-default" type="submit">Send</button>
           </div>
         </div>
       </div>
@@ -138,14 +156,27 @@
           </div>
           <div class="col-md-4">
             <h3>AROUND THE WEB</h3>
-            <p>2215 John Daniel Drive</p>
-            <p> Clark, MO 65243 </p>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
           </div>
           <div class="col-md-4">
             <h3>About Freelancer</h3>
             <p>Freelance is a free to use, MIT</p>
             <p>licensed Bootstrap theme created by</p>
-            <p>Start Bootstrap.</p>
+            <p><a href="#">Start Bootstrap.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright © Your Website 2020</p>
           </div>
         </div>
       </div>
